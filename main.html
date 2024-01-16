@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Blog Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+      integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/187ee844d8.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="intro">
+        <img class="img-fluid w-100" src="images/header.jpg" />
+        <div class="head text-center">
+          <h1>Hella</h1>
+          <h6>LIFESTYLERS</h6>
+          <p>This blog for people who care about healthy food</p>
+          <hr class="w-25 mx-auto" />
+        </div>
+      </div>
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light px-5 py-3">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Featured</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Breakfast</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Fruits</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+
+          <ul class="navbar-nav ml-auto">
+            <div class="row">
+              <li class="nav-item col-2 col-md-1 col-1">
+                <i
+                  class="fa fa-youtube-play px-2 font-weight-bold"
+                  aria-hidden="true"
+                ></i>
+              </li>
+              <li class="nav-item col-2 col-md-1 col-1">
+                <i
+                  class="fa fa-instagram px-2 font-weight-bold"
+                  aria-hidden="true"
+                ></i>
+              </li>
+              <li class="nav-item col-2 col-md-1 col-1">
+                <i
+                  class="fa fa-twitter px-2 font-weight-bold"
+                  aria-hidden="true"
+                ></i>
+              </li>
+              <li class="nav-item col-2 col-md-1 col-1">
+                <i
+                  class="fa fa-pinterest px-2 font-weight-bold"
+                  aria-hidden="true"
+                ></i>
+              </li>
+            </div>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section class="featured container my-5">
+      <div class="row">
+        <div class="one col-lg-4 col-md-6 col-12 mb-3">
+          <img class="img-fluid" src="images/Post 1.jpg" />
+          <div class="text w-75 h-50 text-light p-4">
+            <p>BREAKFAST</p>
+            <h4>This could be a title for this blog</h4>
+            <a href="#">Read more</a>
+          </div>
+        </div>
+
+        <div class="one col-lg-4 col-md-6 col-12 mb-3">
+          <img class="img-fluid" src="images/Post 2.jpg" />
+          <div class="text w-75 h-50 text-light p-4">
+            <p>BREAKFAST</p>
+            <h4>This could be a title for this blog</h4>
+            <a href="#">Read more</a>
+          </div>
+        </div>
+
+        <div class="one col-lg-4 col-md-6 col-12 mb-3">
+          <img class="img-fluid" src="images/Post 3.jpg" />
+          <div class="text w-75 h-50 text-light p-4">
+            <p>BREAKFAST</p>
+            <h4>This could be a title for this blog</h4>
+            <a href="#">Read more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="subscription container p-5">
+      <div class="row justify-content-between align-items-center">
+        <div class="content col-lg-6 col-md-6 col-12">
+          <h3>Want to get weekly tips & tricks?</h3>
+          <p>Sign up and recieve your first email immediately</p>
+        </div>
+        <div class="sub col-lg-6 col-md-6 col-12 w-100">
+          <input
+            class="py-2 px-3 col-lg-6 col-md-12"
+            type="email"
+            name=""
+            placeholder="Your Email"
+          />
+          <button class="text-uppercase col-lg-5 col-md-12 my-1">
+            Subscribe
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="blog container my-5">
+      <div class="row">
+        <div class="post col-lg-8 col-md-8 col-12">
+          <div class="row">
+            <div class="post1 col-lg-6 col-md-6 col-12 pb-4">
+              <img class="img-fluid pb-3" src="images/Post 2.jpg" />
+              <h3>Make a healthy routine for you</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Perferendis consectetur, vero nihil quasi iste aperiam!
+              </p>
+              <a href="#">Read more</a>
+            </div>
+
+            <div class="post1 col-lg-6 col-md-6 col-12 pb-4">
+              <img class="img-fluid pb-3" src="images/Post 5.jpg" />
+              <h3>Make a healthy routine for you</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Perferendis consectetur, vero nihil quasi iste aperiam!
+              </p>
+              <a href="#">Read more</a>
+            </div>
+
+            <div class="post1 col-lg-6 col-md-6 col-12 pb-4">
+              <img class="img-fluid pb-3" src="images/Post 6.jpg" />
+              <h3>Make a healthy routine for you</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Perferendis consectetur, vero nihil quasi iste aperiam!
+              </p>
+              <a href="#">Read more</a>
+            </div>
+
+            <div class="post1 col-lg-6 col-md-6 col-12 pb-4">
+              <img class="img-fluid pb-3" src="images/Post 1.jpg" />
+              <h3>Make a healthy routine for you</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Perferendis consectetur, vero nihil quasi iste aperiam!
+              </p>
+              <a href="#">Read more</a>
+            </div>
+
+            <div class="post1 col-lg-6 col-md-6 col-12 pb-4">
+              <img class="img-fluid pb-3" src="images/Post 4.jpg" />
+              <h3>Make a healthy routine for you</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Perferendis consectetur, vero nihil quasi iste aperiam!
+              </p>
+              <a href="#">Read more</a>
+            </div>
+
+            <div class="post1 col-lg-6 col-md-6 col-12 pb-4">
+              <img class="img-fluid pb-3" src="images/Post 3.jpg" />
+              <h3>Make a healthy routine for you</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Perferendis consectetur, vero nihil quasi iste aperiam!
+              </p>
+              <a href="#">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="sidebar col-lg-4 col-md-4 col-12">
+          <div class="side1 text-center pb-5">
+            <img class="img-fluid mb-3" src="images/Profile picture.jpg" />
+            <h3>Sofia Vogue</h3>
+            <h6>FULL TIME HEALTH BLOGGER</h6>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+              doloribus aut nisi.
+            </p>
+          </div>
+
+          <div class="side2 pb-5">
+            <h4>My personal favourites</h4>
+            <hr class="w-50" />
+            <div class="row pb-3">
+              <div class="sideimg col-lg-4 col-md-4 col-4">
+                <img class="img-fluid" src="images/Post 5.jpg" />
+              </div>
+              <div class="sidetext col-lg-8 col-md-8 col-8">
+                <h4>Lorem ipsum dolor sit amet.</h4>
+                <a href="#">Read more</a>
+              </div>
+            </div>
+
+            <div class="row pb-3">
+              <div class="sideimg col-lg-4 col-md-4 col-4">
+                <img class="img-fluid" src="images/Post 6.jpg" />
+              </div>
+              <div class="sidetext col-lg-8 col-md-8 col-8">
+                <h4>Lorem ipsum dolor sit amet.</h4>
+                <a href="#">Read more</a>
+              </div>
+            </div>
+
+            <div class="row pb-3">
+              <div class="sideimg col-lg-4 col-md-4 col-4">
+                <img class="img-fluid" src="images/Post 7.jpg" />
+              </div>
+              <div class="sidetext col-lg-8 col-md-8 col-8">
+                <h4>Lorem ipsum dolor sit amet.</h4>
+                <a href="#">Read more</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="side3">
+            <h4>Interesting</h4>
+            <hr class="w-25" />
+            <div class="one">
+              <img class="img-fluid" src="images/Post 1.jpg" />
+              <div class="text text-center">
+                <h4 class="text-light">
+                  Vitamines C, now also available is a simple package
+                </h4>
+                <button class="text-uppercase">Shop Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <footer class="text-center text-white">
+        <div class="container p-4"></div>
+
+        <div class="text-center p-3" style="background-color: #6caa7f">
+          © 2022 Copyright:
+          <a class="text-white" href="#">Luka Mkalavishvili</a>
+        </div>
+      </footer>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+      integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
